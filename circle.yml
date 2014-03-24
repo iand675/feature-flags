@@ -7,7 +7,7 @@ dependencies:
   cache_directories:
     - "~/installs"
   override:
-    - sh ~/librato/install_deps.sh
+    - sh ~/install_deps.sh
 test:
   cache_directories:
     - "dist"
