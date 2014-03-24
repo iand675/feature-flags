@@ -7,7 +7,7 @@ dependencies:
   cache_directories:
     - "~/installs"
   override:
-    - sh ~/install_deps.sh
+    - sh ~/$CIRCLE_PROJECT_REPONAME/install_deps.sh
 test:
   cache_directories:
     - "dist"
